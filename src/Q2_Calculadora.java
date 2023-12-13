@@ -63,7 +63,7 @@ public class Q2_Calculadora {
                 System.exit(0);
         }
 
-        System.out.printf("%.2f %s %.2f = %.2f", a,  operador, b, resultado);
+        System.out.printf("%.2f %s %.2f = %.2f", a, operador, b, resultado);
 
     }
 

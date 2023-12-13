@@ -59,7 +59,8 @@ public class Q2_Calculadora {
                 resultado = Math.pow(a, b);
                 break;
             default:
-                System.out.println("Opção inválida.");
+                System.out.println("Operação inválida.");
+                System.exit(0);
         }
 
         System.out.printf("%.2f %s %.2f = %.2f", a,  operador, b, resultado);
